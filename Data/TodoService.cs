@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
-using AdvancedTodoWebAPI.Models;
+using DNP_web_api.Models;
 
-namespace AdvancedTodoWebAPI.Data {
+namespace DNP_web_api.Data {
 public class TodoService : ITodosService {
 
     private string todoFile = "todos.json";

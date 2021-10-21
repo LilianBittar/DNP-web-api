@@ -28,6 +28,7 @@ namespace DNP_web_api
         {
 
             services.AddControllers();
+            services.AddScoped<ITodosService, TodoService>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DNP_web_api", Version = "v1" });

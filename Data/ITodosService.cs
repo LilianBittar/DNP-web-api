@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using AdvancedTodoWebAPI.Models;
+using DNP_web_api.Models;
 
-namespace AdvancedTodoWebAPI.Data {
+namespace DNP_web_api.Data {
     public interface ITodosService {
         Task<IList<Todo>> GetTodosAsync();
         Task<Todo>   AddTodoAsync(Todo todo);
